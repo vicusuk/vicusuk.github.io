@@ -1,0 +1,56 @@
+html, body{
+	height: 100%;
+}
+body{
+	background-image: url("Background.jfif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #665E51;
+	color: #383023;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 18px
+}
+h1, h2{
+	text-align: center;
+	color: black;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #960001;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #F9AE03;
+}
+li.navbar {
+    float: left;
+	margin-left: 14.5%;
+}
+li a {
+    display: block;
+	color: #F9AE03;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #780001;
+}
+.active {
+    background-color: #B40001;
+}
+h3, h4, p, ul{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+a{
+	Color: purple;
+}
+div.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 150px;
+}
