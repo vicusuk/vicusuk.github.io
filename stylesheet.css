@@ -3,6 +3,7 @@ html, body{
 }
 body{
 	background-image: url("Background.jfif");
+	background-repeat: repeat;
 	background-attachment: fixed;
 	background-color: #665E51;
 	color: #383023;
